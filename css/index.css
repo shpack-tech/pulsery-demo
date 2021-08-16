@@ -179,7 +179,7 @@ header {
 	height: 8px;
 	background: #90caff;
 	margin-left: -4px;
-	top: 32px;
+	top: 8px;
 	border-radius: 30px;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
@@ -191,7 +191,7 @@ header {
 	}
 	100% {
 		opacity: 0;
-		transform: translateY(-26px);
+		transform: translateY(26px);
 	}
 }
 @-webkit-keyframes scroll {
@@ -200,7 +200,7 @@ header {
 	}
 	100% {
 		opacity: 0;
-		transform: translateY(-26px);
+		transform: translateY(26px);
 	}
 }
 @-o-keyframes scroll {
@@ -209,7 +209,7 @@ header {
 	}
 	100% {
 		opacity: 0;
-		transform: translateY(-26px);
+		transform: translateY(26px);
 	}
 }
 @keyframes scroll {
@@ -218,7 +218,7 @@ header {
 	}
 	100% {
 		opacity: 0;
-		transform: translateY(-26px);
+		transform: translateY(26px);
 	}
 }
 
