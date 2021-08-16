@@ -274,6 +274,14 @@ header {
 .insight {
 	padding-bottom: 115px !important;
 }
+.insight_image img {
+	width: 251px;
+	height: 493px;
+}
+.phone_mockup img {
+	height: 572px;
+	width: 291px;
+}
 
 .heart_rate_content {
 	display: flex;
@@ -478,6 +486,10 @@ footer {
 	}
 	.insight_content {
 		flex-direction: column-reverse;
+	}
+	.phone_mockup img {
+		width: 177px;
+		height: 349px;
 	}
 }
 @media (max-width: 1024px) {
