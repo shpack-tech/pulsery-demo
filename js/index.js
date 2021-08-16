@@ -56,27 +56,4 @@ document.addEventListener('DOMContentLoaded', function () {
 			boxes.style.padding = '0 25%';
 		}
 	}
-	// window.addEventListener('scroll', function () {
-	// 	scroller.innerHTML += `
-	// 		<style>
-	// 		body::-webkit-scrollbar {
-	// 			display: block;
-	// 		}
-	// 		</style>
-	// 	`;
-	// });
-	let srcolls;
-
-	window.addEventListener(
-		'scroll',
-		function (event) {
-			scroller.classList.add('scrolling');
-			window.clearTimeout(srcolls);
-
-			srcolls = setTimeout(function () {
-				scroller.classList.remove('scrolling');
-			}, 500);
-		},
-		false
-	);
 });
