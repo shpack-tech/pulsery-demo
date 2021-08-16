@@ -119,6 +119,12 @@ header {
 .download_links {
 	margin: 32px 0 0 0;
 }
+.act:hover {
+	transition: all ease 0.2s;
+}
+.act:hover {
+	filter: drop-shadow(0px 5px 10px #a6a6a6);
+}
 .download_links a:first-child {
 	margin: 0 50px 0 0;
 }
