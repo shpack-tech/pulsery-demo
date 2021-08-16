@@ -443,6 +443,9 @@ footer {
 		width: 253px;
 		top: 80px;
 	}
+	.bottom_circle {
+		top: 20px;
+	}
 	.phone_mockup {
 		width: 177px;
 		height: 349px;
