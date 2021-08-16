@@ -296,7 +296,9 @@ header {
 .heart_rat_images_mobile {
 	display: none;
 }
-
+.heart_rat_images_mobile img {
+	width: 100%;
+}
 .trends_content {
 	display: flex;
 	justify-content: space-between;
@@ -680,11 +682,11 @@ footer {
 		font-size: 14px;
 	}
 	.heart_rat_images_mobile {
-		width: 290px;
-		margin: 0 0 0 -55px;
+		width: 100%;
+		margin: 0;
 	}
 	.heart_rat_images_mobile img {
-		width: 290px;
+		width: 100%;
 	}
 	.trends_image_mobile img {
 		width: calc(100% + 50px);
@@ -782,8 +784,8 @@ footer {
 		top: 750px;
 	}
 	.heart_rat_images_mobile {
-		width: 290px;
-		margin: 0 0 0 -20px;
+		width: 100%;
+		margin: 0;
 	}
 	.insight_image_mobile_bot {
 		font-size: 12px;
