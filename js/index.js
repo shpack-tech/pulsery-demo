@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		const offsetTop = document.querySelector(href).offsetTop;
 
 		scroll({
-			top: offsetTop,
+			top: offsetTop - 110,
 			behavior: 'smooth',
 		});
 	}
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		const offsetTop = document.querySelector(href).offsetTop;
 		closeMobileMenu();
 		scroll({
-			top: offsetTop,
+			top: offsetTop - 105,
 			behavior: 'smooth',
 		});
 	}
