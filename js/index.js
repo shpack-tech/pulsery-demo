@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const cross = document.querySelector('[data-prop="close-popup"]');
 	const popup = document.querySelector('[data-prop="popup"]');
 	const burger = document.querySelector('[data-prop="open-popup"]');
+	const scroller = document.querySelector('body');
 	function closeMobileMenu() {
 		popup.style.transform = 'scale(0)';
 		setTimeout(function () {
@@ -55,4 +56,27 @@ document.addEventListener('DOMContentLoaded', function () {
 			boxes.style.padding = '0 25%';
 		}
 	}
+	// window.addEventListener('scroll', function () {
+	// 	scroller.innerHTML += `
+	// 		<style>
+	// 		body::-webkit-scrollbar {
+	// 			display: block;
+	// 		}
+	// 		</style>
+	// 	`;
+	// });
+	let srcolls;
+
+	window.addEventListener(
+		'scroll',
+		function (event) {
+			scroller.classList.add('scrolling');
+			window.clearTimeout(srcolls);
+
+			srcolls = setTimeout(function () {
+				scroller.classList.remove('scrolling');
+			}, 500);
+		},
+		false
+	);
 });
