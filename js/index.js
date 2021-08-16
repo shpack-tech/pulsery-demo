@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	if (screen.width > 1920) {
 		const box = document.querySelectorAll('.box');
 		for (const boxes of box) {
-			boxes.style.padding = '0 30%';
+			boxes.style.padding = '0 25%';
 		}
 	}
 });
