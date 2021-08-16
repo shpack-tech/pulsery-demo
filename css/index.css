@@ -42,6 +42,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-weight: bold;
 }
 .header_content {
 	height: 100%;
@@ -118,6 +119,10 @@ header {
 
 .download_links {
 	margin: 32px 0 0 0;
+}
+.download_links a img {
+	width: 173px;
+	height: 50px;
 }
 .act:hover {
 	transition: all ease 0.2s;
@@ -699,20 +704,27 @@ footer {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
+		height: 100%;
 	}
 	.info {
 		display: flex;
 		width: 100%;
+		justify-content: center;
 		flex-direction: column-reverse;
+	}
+	footer {
+		height: 300px;
 	}
 	footer .logo {
 		padding: 16px 0;
-
+		font-size: 20px;
 		box-sizing: border-box;
+		margin: 20px 0 0 0;
 	}
 	.info a {
 		padding: 16px 0;
 		width: 100%;
+		font-size: 23px;
 		box-sizing: border-box;
 	}
 	.info a:first-child {
